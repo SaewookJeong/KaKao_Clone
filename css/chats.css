@@ -1,0 +1,43 @@
+.chats .chats__list{
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.chats__list .chats__chat{
+    padding: 15px;
+}
+
+.chats__chat .chat__content img{
+    width: 40px;
+    border-radius: 50%;
+    max-height: 40px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.chats__list .chats__chat a{
+    display: flex;
+    color: inherit;
+    justify-content: space-between;
+    text-decoration: none;
+} 
+
+.chats__chat .chat__content{
+    display: flex;
+    align-items: flex-start;
+}
+
+.chat__preview .chat__user{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.chat__preview .chat__last-message{
+    color: #b4b4b4;
+    font-size: 11px;
+}
+
+.chats__chat .chat__date-time{
+    font-size: 11px;
+    color: #b4b4b4;
+}

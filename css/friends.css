@@ -9,26 +9,36 @@
 .friends__section-rows .friends__section-row{
     padding: 10px 15px;
     display: flex; 
-    /* align-items: center; */
-    /* font-size: 14px;  */
+    align-items: center;
+    font-size: 14px; 
 }
 
-/* .friends__section-row a{
+.friends__section-row a{
     text-decoration: none;
     color: inherit;
-} */
+}
 
 .friends__section-row img{
     width: 40px;
+    max-height: 40px;
+    height: auto;
     border-radius: 50%;
     margin-right: 15px;
 }
 
 .friends__section-column{
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    align-items: center;
 }
 
 .friends__section-row.with-tagline{
-    /* justify-content: space-between; */
+    justify-content: space-between;
+}
+
+.friends__section-tagline{
+    font-size: 10px;
+    background-color: #f0f0f0;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #939393;
 }
