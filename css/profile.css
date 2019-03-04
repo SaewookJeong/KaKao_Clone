@@ -1,0 +1,26 @@
+.top-header--transparent{
+    background-color: black;
+}
+
+.profile .profile__header{
+    height: 80vh;
+    background-color: brown;
+    width: 100%;
+    position: relative;
+    top: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ .profile__header .profile__header--container{
+    text-align: center;   
+    position: relative;
+    bottom: -40px;
+} 
+
+.profile__header--container img{
+    width: 100px;
+    border-radius: 50%;
+}
