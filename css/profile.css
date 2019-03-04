@@ -1,6 +1,6 @@
 .top-header--transparent{
-    background-color: black;
-}
+    background-color: transparent;
+} 
 
 .profile .profile__header{
     height: 80vh;
@@ -14,7 +14,7 @@
     align-items: center;
 }
 
- .profile__header .profile__header--container{
+.profile__header .profile__header--container{
     text-align: center;   
     position: relative;
     bottom: -40px;
