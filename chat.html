@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="top-header">
+    <header class="top-header chat-header">
 
         <div class="header__top">  
 
@@ -57,9 +57,9 @@
             <span class="chat__message-body">Hello! This is a test message.</span>
         </div>
 
-        <div class="chat__message">
+        <div class="chat__message chat__message-to-me">
             <img src="images/limbly.jpg" class="chat__message-avatar">
-            <div class="chat__message-center chat__message-to-me">
+            <div class="chat__message-center">
                 <h3 class="chat__message-username">Yeji</h3>
                 <span class="chat__message-body">And this is an answer</span>
             </div>
@@ -68,14 +68,15 @@
     </main>
     <div class="type-message">
         <i class="fa fa-plus fa-2x"></i>
+        <div class="type-message__input">
+            <input type="text">
+            <i class="far fa-smile"></i>
+            <span class="record-message">
+                <i class="fa fa-microphone"></i>
+            </span>
+        </div>
     </div>
-    <div class="type-message__input">
-        <input type="text">
-        <i class="far fa-smile"></i>
-        <span class="record-message">
-            <i class="fa fa-microphone"></i>
-        </span>
-    </div>
+    
     
 </body>
 </html>
