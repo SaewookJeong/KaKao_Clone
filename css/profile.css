@@ -1,5 +1,5 @@
 .top-header--transparent{
-    background-color: transparent;
+    background-color: black;
 } 
 
 .profile .profile__header{
@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    z-index: 1;
 }
 
 .profile__header .profile__header--container{
