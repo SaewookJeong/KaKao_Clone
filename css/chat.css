@@ -16,6 +16,8 @@
     background-color: #a1c0d6;
     height: 100vh;
     padding-top: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .chat .date-devider{
@@ -29,7 +31,7 @@
     height: 35px;
     border-radius: 50%;
     margin-right: 10px;
-    align-items: flex-end;
+    align-self: flex-start;
 }
 
 .chat__message-from-me{
@@ -98,11 +100,18 @@
 
 .type-message__input input {
     width: 100%;
-    padding: 5px;
+    padding: 8px;
 }
 
 .type-message__input .fa-smile{
-    right: 15px;
+    right: 40px;
     position: absolute;
+    color: #b4b4b4;
+}
 
+.type-message__input .record-message{
+    color: #523737;
+    background-color: #ffe934;
+    padding: 10px;
+    cursor: pointer;
 }

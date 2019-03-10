@@ -62,6 +62,7 @@
     font-size: 20px;
     color: #523737;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: color .3s, background .3s, transform 1s ease-in-out;    
 }
 
 .chat-btn .fa-plus{
@@ -69,4 +70,10 @@
     font-size: 15px;
     padding-bottom: 1px;
     font-weight: 700;
+}
+
+.chat-btn:hover{
+    color: white;
+    background-color: #523737;
+    transform: rotateY(1turn);
 }
